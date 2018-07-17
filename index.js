@@ -1,26 +1,26 @@
 /**
- * @file mofron-event-dev/index.js
+ * @file mofron-event-xxx/index.js
  * @author simpart
  */
 
 /**
  * @class mofron.event.xxx
- * @brief click event class for component
+ * @brief xxxx event class for component
  */
 mofron.event.xxx = class extends mofron.Event {
     
     constructor (po, p2) {
         try {
-            super(po, p2);
+            super();
             this.name('xxx');
-            this.prmOpt(po);
+            this.prmOpt(po, p2);
         } catch (e) {
             console.error(e.stack);
             throw e;
         }
     }
     
-    eventConts (tgt_dom) {
+    contents (tgt_dom) {
         try {
             
         } catch (e) {

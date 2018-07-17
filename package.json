@@ -1,6 +1,6 @@
 {
   "name": "mofron-event-dev",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "event config template for mofron",
   "main": "index.js",
   "scripts": {
