@@ -1,6 +1,6 @@
 {
   "name": "mofron-event-dev",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "event config template for mofron",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/mofron/mofron-event-dev.git"
   },
   "keywords": [
-    "front-end"
+    "mofron"
   ],
   "author": "simparts",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mofron/mofron-event-dev/issues"
   },
