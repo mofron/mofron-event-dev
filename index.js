@@ -7,19 +7,19 @@ module.exports = class extends mofron.class.Event {
     /**
      * initialize event
      * 
-     * @param (mixed) 
+     * @param (mixed) short-form parameter
      *                key-value: event config
      * @short
      * @type private
      */
-    constructor (p1) {
+    constructor (prm) {
         try {
             super();
-            this.name("");     // please set module name
-	    this.shortForm();  // please set short form parameter name
+            this.name("");       // please set module name
+	    this.shortForm("");  // please set short form parameter name
             
-	    if (0 < arguments.length) {
-                this.config(p1);
+	    if (undefined !== prm) {
+                this.config(prm);
             }
         } catch (e) {
             console.error(e.stack);
